@@ -5,10 +5,10 @@ const NavigationBar = () => (
   <header className={styles.header}>
     <nav>
       <NavLink
-        exact
         to="/"
         className={styles.link}
         activeClassName={styles.activeLink}
+        exact
       >
         Home
       </NavLink>
